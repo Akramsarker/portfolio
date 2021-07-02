@@ -238,14 +238,16 @@ li {
 #project .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 2px solid #444;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-gap: 10px;
+   
 }
 
 #project .items .item {
     border: 1px solid #444; 
     position: relative;
     background: #444;
+    border-radius: 12px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
 }
 
